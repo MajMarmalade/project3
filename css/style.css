@@ -1,0 +1,369 @@
+/*
+  ALL PAGES STYLE 
+*/
+@font-face {
+  font-family: SpecialElite;
+  src: url(../fonts/SpecialElite.ttf);
+}
+
+@font-face {
+  font-family: Crucifixion;
+  src: url(../fonts/Crucifixion-Regular.ttf);
+}
+
+#navbar {
+  background-image: linear-gradient(rgb(2, 42, 102),rgb(92, 157, 255));
+  overflow: hidden;
+}
+#insideNav {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 40px 30px;
+  color: #ffffff;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(2, 42, 102),rgb(92, 157, 255));
+  font-size: larger;
+  font-family: SpecialElite;
+}
+
+#navbar ul li a:hover {
+  background-color: rgba(37, 88, 165, 0.555);
+  color: rgb(0, 0, 0);
+}
+
+#onpage {
+  text-decoration: underline overline;
+}
+
+body {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  background-image: linear-gradient( rgb(92, 157, 255),aliceblue);
+}
+
+section{
+  border: 3px solid black;
+  
+}
+
+p { 
+  float: none;
+  padding: 10px 10px;
+  font-size: 2vmin;
+  font: 400;
+  font-weight: 400;
+  color: black;
+}
+/*
+  INDEX PAGE STYLE 
+*/
+#welcome h1{
+  float:none;
+  padding: 10px 10px;
+  font-size: 4vmin;
+  font-weight: 900;
+  color: black;  
+  font-family: SpecialElite;
+}
+
+#welcome strong {
+  font: 400;
+  font-weight: 600;
+  color: black;
+}
+
+#aboutMe h2 {
+  float: none;
+  padding: 10px 10px;
+  font-size: 3vmin;
+  font-weight: 900;
+  color: black;  
+  font-family: SpecialElite;
+}
+
+#hobbies h3 {
+  float: none;
+  padding: 10px 10px;
+  font-size: 3.5vmin;
+  font-weight: 900;
+  color: black;  
+  font-family: SpecialElite;
+}
+
+#hobbies h4 {
+  float: left;
+  padding: 10px 10px;
+  font-size: 3.5vmin;
+  font-weight: 600;
+  color: black;  
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#hobbies ul li{
+  float: none;
+  border: 3px #000000;
+  display: block;
+  padding: 4px 5px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 3.5vmin;
+  font-family: SpecialElite;
+}
+
+#myDog h3 {
+  float: left;
+  padding: 10px 10px;
+  font-size: 3.5vmin;
+  font-weight: 900;
+  color: black;  
+  font-family: SpecialElite;
+}
+
+#sirKartMan{
+  width: 30vmin;
+  height: auto;
+  max-width: 100%;
+}
+
+#buckley{
+  width: 20vmin;
+  height: auto;
+  max-width: 100%;
+}
+/*
+  Resume PAGE STYLE 
+*/
+#resume h1 {
+  padding: 10px 10px;
+  font-size: xx-large;
+  font-weight: 900;
+  color: black;  
+  font-family: SpecialElite;
+}
+
+#resume h2 {
+  padding: 10px 10px;
+  font-size: x-large;
+  font-weight: 900;
+  color: black;  
+  font-family: SpecialElite;
+}
+
+#resume h2 {
+  padding: 10px 10px;
+  font-size: x-large;
+  font-weight: 900;
+  color: black;  
+  font-family: SpecialElite;
+}
+
+#resume p {
+  padding: 5px 5px;
+  font-size: large;
+  font-weight: 600;
+  color: black;  
+  font-family: SpecialElite;
+}
+
+#resume h3{
+  padding: 10px 10px;
+  font-size: x-large;
+  font-weight: 400;
+  color: black;  
+  font-family: SpecialElite;
+  text-decoration: underline
+}
+
+#resume ul li{
+  border: 3px #000000;
+  display: block;
+  padding: 4px 5px;
+  color: #000000;
+  text-decoration: none;
+  font-size: medium;
+  font-family: SpecialElite;
+}
+
+#education h3{
+  padding: 10px 10px;
+  font-size: x-large;
+  font-weight: 400;
+  color: black;  
+  font-family: SpecialElite;
+  text-decoration: underline
+}
+
+#education h5{
+  padding: 10px 10px;
+  font-size: medium;
+  font-weight: 400;
+  color: black;  
+  font-family: SpecialElite;
+  text-decoration: underline
+}
+
+#education ul li{
+  border: 3px #000000;
+  display: block;
+  padding: 4px 5px;
+  color: #000000;
+  text-decoration: none;
+  font-size: medium;
+  font-family: SpecialElite;
+}
+
+
+#work h3{
+  padding: 10px 10px;
+  font-size: x-large;
+  font-weight: 400;
+  color: black;  
+  font-family: SpecialElite;
+  text-decoration: underline
+}
+
+#work h5{
+  padding: 10px 10px;
+  font-size: medium;
+  font-weight: 400;
+  color: black;  
+  font-family: SpecialElite;
+  text-decoration: underline
+}
+
+#work ul li{
+  border: 3px #000000;
+  display: block;
+  padding: 4px 5px;
+  color: #000000;
+  text-decoration: none;
+  font-size: medium;
+  font-family: SpecialElite;
+}
+
+#extra h3{
+  padding: 10px 10px;
+  font-size: x-large;
+  font-weight: 400;
+  color: black;  
+  font-family: SpecialElite;
+  text-decoration: underline
+}
+
+#extra ul li{
+  border: 3px #000000;
+  display: block;
+  padding: 4px 5px;
+  color: #000000;
+  text-decoration: none;
+  font-size: medium;
+  font-family: SpecialElite;
+}
+/*
+  Radioshow PAGE STYLE 
+*/
+#aggMid h1{
+  padding: 15px 15px;
+  font-size: 70px;
+  font-weight: 900;
+  background-color: #000000;
+  color: rgb(255, 255, 255);  
+  font-family: Crucifixion;  
+}
+
+#aggMid p {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  color: black;  
+  font-family: SpecialElite;
+}
+
+#description h2 {
+  padding: 10px 10px;
+  font-size: 40px;
+  font-weight: 900;
+  color: black;  
+  font-family: SpecialElite;
+}
+
+#description p {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(10, 10, 10);  
+  font-family: SpecialElite;
+}
+
+#media h2{
+  padding: 10px 10px;
+  font-size: 40px;
+  font-weight: 900;
+  color: black;  
+  font-family: SpecialElite; 
+}
+
+#media p {
+ 
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(10, 10, 10);  
+  font-family: SpecialElite;
+}
+
+#media h3 {
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);  
+  font-family: SpecialElite;
+}
+
+#showPoster {
+  width: 350px;
+  height: auto;
+}
+
+#djPoster {
+  width: 300px;
+  height: auto;
+}
+
+#listen h2 {
+  padding: 10px 10px;
+  font-size: 40px;
+  font-weight: 900;
+  color: black;  
+  font-family: SpecialElite; 
+}
+
+#listen p {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(10, 10, 10);  
+  font-family: SpecialElite;
+}
+
+
