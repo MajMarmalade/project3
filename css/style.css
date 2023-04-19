@@ -397,7 +397,7 @@ p {
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  position: relative;
+  position: static;
   margin: auto;
 }
 
