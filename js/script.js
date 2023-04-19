@@ -1,29 +1,27 @@
-var map;
-const iit = {lat:41.835, lng:-87.627};
-const severn = {lat:39.028843, lng:-76.529090};
-const ocean = {lat:38.329228, lng:-75.085384};
+// Initialize and add the map
+let map;
 
-function initMap() {
-    map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 15, center:iit,
-    });
-    const marker = new google.maps.Marker({
-        position: iit, map:map,
-    });
+async function initMap() {
+  // The location of Uluru
+  const position = { lat: -25.344, lng: 131.031 };
+  // Request needed libraries.
+  //@ts-ignore
+  const { Map } = await google.maps.importLibrary("maps");
+  const { AdvancedMarkerView } = await google.maps.importLibrary("marker");
+
+  // The map, centered at Uluru
+  map = new Map(document.getElementById("map"), {
+    zoom: 4,
+    center: position,
+    mapId: "DEMO_MAP_ID",
+  });
+
+  // The marker, positioned at Uluru
+  const marker = new AdvancedMarkerView({
+    map: map,
+    position: position,
+    title: "Uluru",
+  });
 }
 
-function ultraZoom() {
-    map.setZoom(30);
-}
-
-function goToSevern() {
-    map.setCenter(severn);
-    map.setZoom(15);
-}
-
-function goToOcean() {
-    map.setCenter(ocean);
-    map.setZoom(15);
-}
-
- initMap();  
+initMap();
