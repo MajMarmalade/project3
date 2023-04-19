@@ -409,7 +409,7 @@ p {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: 40px;
+  margin-top: 100px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -421,12 +421,12 @@ p {
 
 /* Position the "next button" to the right */
 .next {
-  right: 60%;
+  right: 30px;
   border-radius: 3px 0 0 3px;
 }
 
 .prev {
-  left: 60%;
+  left: 30px;
   border-radius: 3px 0 0 3px;
 }
 
