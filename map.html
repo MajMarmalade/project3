@@ -6,7 +6,7 @@
     <title>MapPage</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css"> 
-    <script type="module" src="js/mapScript.js"></script>
+    <script type="module" src="mapScript.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
@@ -29,8 +29,16 @@
         </div>       
       </nav>
     </header>
-    <div id="wrapper">
-      <div id="map"></div>
-    </div>
+    <div id="content">
+			<h1>Map!</h1>
+			<div id="map"><p>hasjhdjkh</p></div>
+			<nav>
+				<ul>
+					<li><a onclick="ultraZoom();">Spy Satellite View (zoom in)</a></li>
+					<li><a onclick="goToPoland();">Go To Poland</a></li>
+					<li><a onclick="goToGoodwill();">Visit a local Goodwill!</a></li>
+				</ul>
+			</nav>
+		</div>
   </body>
 </html>
