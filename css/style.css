@@ -397,7 +397,7 @@ p {
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  position: static;
+  position: sticky;
   margin: auto;
 }
 
@@ -421,12 +421,12 @@ p {
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: 40%;
   border-radius: 3px 0 0 3px;
 }
 
 .prev {
-  left: 0;
+  left: 40%;
   border-radius: 3px 0 0 3px;
 }
 
