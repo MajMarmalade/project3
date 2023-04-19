@@ -422,13 +422,13 @@ p {
 /* Position the "next button" to the right */
 .next {
   right: 250px;
-  bottom: 100px;
+  top: -100px;
   border-radius: 3px 0 0 3px;
 }
 
 .prev {
   left: 250px;
-  bottom: 100px;
+  top: -100px;
   border-radius: 3px 0 0 3px;
 }
 
