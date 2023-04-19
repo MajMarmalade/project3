@@ -392,7 +392,7 @@ p {
   font-family: SpecialElite;
 }
 
-{box-sizing:border-box}
+*{box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
