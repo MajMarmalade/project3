@@ -153,6 +153,15 @@ p {
 
 @media (max-width: 600px){
 
+  p { 
+    float: none;
+    padding: 10px 10px;
+    font-size: 6vmin;
+    font: 400;
+    font-weight: 400;
+    color: black;
+  }
+
   #sirKartMan{
     width: 30vmin;
     height: auto;
