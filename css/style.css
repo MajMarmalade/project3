@@ -150,6 +150,23 @@ p {
   height: auto;
   max-width: 100%;
 }
+
+@media (max-width: 600px){
+
+  #sirKartMan{
+    width: 30vmin;
+    height: auto;
+    max-width: 70%;
+  }
+  
+  #buckley{
+    width: 20vmin;
+    height: auto;
+    max-width: 70%;
+  }
+  
+}
+
 /*
   Resume PAGE STYLE 
 */
