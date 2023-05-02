@@ -13,6 +13,14 @@ const contentString =
 "</div>" +
 "</div>";
 
+const contentString2 =
+'<div id="content">' +
+'<h1 id="firstHeading" class="firstHeading">ALIENS ARE REAL 2???!!!</h1>' +
+'<div id="bodyContent">' +
+"<p>Ground Circles Perposterous!!!?!?!?</p>" + 
+"</div>" +
+"</div>";
+
 const infowindow = new google.maps.InfoWindow({
     content: contentString,
     ariaLabel: "Evidence 1",
@@ -28,10 +36,27 @@ marker1.addListener("click", () => {
   map,
   });
 });
+
+const infowindow2 = new google.maps.InfoWindow({
+  content: contentString2,
+  ariaLabel: "Evidence 2",
+});
+let marker2 = new google.maps.Marker({
+  position: {lat:35.52, lng:104.62},
+  map,
+  title: "Evidence of Aliens 2"
+})
+marker2.addListener("click", () => {
+infowindow2.open({
+anchor: marker2,
+map,
+});
+});
 }
 
 
 
 
 marker1.setMap(map);
+marker2.setMap(map);
 initMap();
