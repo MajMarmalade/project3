@@ -5,8 +5,6 @@ function initMap() {
     zoom: 15,
     mapTypeId: 'satellite'
 });
-}
-
 const contentString = "<p>No man could ever make a large geometric object on the ground! This must be ALIENS</p>";
 
 const infowindow = new google.maps.InfoWindow({
@@ -24,5 +22,8 @@ marker1.addListener("click", () => {
     map,
     });
 });
+}
+
+
 
 initMap();
