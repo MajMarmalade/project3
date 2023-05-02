@@ -42,7 +42,7 @@ const infowindow2 = new google.maps.InfoWindow({
   ariaLabel: "Evidence 2",
 });
 let marker2 = new google.maps.Marker({
-  position: {lat:35.52, lng:104.62},
+  position: {lat:35.52, lng:-104.62},
   map,
   title: "Evidence of Aliens 2"
 })
