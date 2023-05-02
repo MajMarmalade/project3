@@ -17,7 +17,7 @@ const contentString2 =
 '<div id="content">' +
 '<h1 id="firstHeading" class="firstHeading">ALIENS ARE REAL 2???!!!</h1>' +
 '<div id="bodyContent">' +
-"<p>Ground Circles Perposterous!!!?!?!?</p>" + 
+"<p>Giant Target!!!?!?!?</p>" + 
 "</div>" +
 "</div>";
 
@@ -42,7 +42,7 @@ const infowindow2 = new google.maps.InfoWindow({
   ariaLabel: "Evidence 2",
 });
 let marker2 = new google.maps.Marker({
-  position: {lat:35.52, lng:-104.62},
+  position: {lat:37.563936, lng:-116.85123},
   map,
   title: "Evidence of Aliens 2"
 })
