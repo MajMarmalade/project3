@@ -16,15 +16,15 @@ let marker1 = new google.maps.Marker({
     map,
     title: "Evidence of Aliens 1"
 })
-
-}
-
 marker1.addListener("click", () => {
   infowindow.open({
-  anchor: marker,
+  anchor: marker1,
   map,
   });
 });
+}
+
+
 
 
 marker1.setMap(map);
