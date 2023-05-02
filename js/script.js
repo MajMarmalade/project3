@@ -5,7 +5,13 @@ function initMap() {
     zoom: 15,
     mapTypeId: 'satellite',
 });
-const contentString = "<p>No man could ever make a large geometric object on the ground! This must be ALIENS</p>";
+const contentString =
+'<div id="content">' +
+'<h1 id="firstHeading" class="firstHeading">ALIENS ARE REAL!!!</h1>' +
+'<div id="bodyContent">' +
+"<p>Clearly no mortal man could do this?!?!?</p>" + 
+"</div>" +
+"</div>";
 
 const infowindow = new google.maps.InfoWindow({
     content: contentString,
