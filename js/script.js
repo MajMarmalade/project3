@@ -47,10 +47,10 @@ let marker2 = new google.maps.Marker({
   title: "Evidence of Aliens 2"
 })
 marker2.addListener("click", () => {
-infowindow2.open({
-anchor: marker2,
-map,
-});
+  infowindow2.open({
+  anchor: marker2,
+  map,
+  });
 });
 }
 
