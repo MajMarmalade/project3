@@ -2,7 +2,8 @@
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat:37.629562, lng:-116.849556},
-    zoom: 15
+    zoom: 15,
+    mapTypeId: 'satellite'
 });
 }
 
@@ -12,12 +13,12 @@ const infowindow = new google.maps.InfoWindow({
     content: contentString,
     ariaLabel: "Evidence 1",
 });
- let marker = new google.maps.Marker({
+let marker1 = new google.maps.Marker({
     position: {lat:37.629562, lng:-116.849556},
     map,
     title: "Evidence of Aliens 1"
 })
-marker.addListener("click", () => {
+marker1.addListener("click", () => {
     infowindow.open({
     anchor: marker,
     map,
